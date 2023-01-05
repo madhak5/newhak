@@ -1,0 +1,35 @@
+#!/bin/bash
+
+:'
+ab = 11
+bc = 7
+cd = 23
+constde = 3.14
+de = (ab*ab)=(bc*bd)
+count = 1
+
+while [$bc =< $cd]
+do 
+echo "Hello world!"
+if [$count =>$bc]
+then
+echo "Hello world!"
+break
+fi
+((count++))
+done '
+
+#---SHELL---
+
+.bashrc && cp ~/.bashrc.bak
+sudo nano ~/.bashrc
+
+#---Scroll to the bottom of the configuration 
+#---file.---
+#--- Add the following line:---
+#PS1="MyTestPrompt> "
+
+#---save file from nanoz restart---
+source ~/.bashrc
+
+#---command prompt has changed to MyTestPrompt>---
