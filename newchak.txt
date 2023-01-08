@@ -1,0 +1,30 @@
+
+/*
+#include <unistd.h>
+
+int main() {
+char filename[] = "/bin/sh\xx00";
+char **argv, **envp; // arrays
+
+argv[0] = filename;
+argv[1] = 0;
+
+envp[0] = 0;
+
+execve(filename, argv, envp);
+
+lea(dest, source);
+*/
+
+/*
+int main() {
+char filename[] = "/bin/sh\xx00";
+char **argv, **envp, **newlis; // arrays
+
+newlis[0,3,2] = "pepsi","coke","mtnDew"
+argv[0] = filename;
+argv[1] = 0;
+
+envp[0] = 0;
+
+*/
